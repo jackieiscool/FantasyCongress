@@ -1,6 +1,7 @@
 FantasyCongress::Application.routes.draw do
+  root :to => "caucuses#index"
 
   devise_for :users
 
-  root :to => "home#index"
+  resources :caucuses
 end
