@@ -1,4 +1,6 @@
 class RepresentativesController < ApplicationController
+
+
   def index
   end
 
@@ -7,7 +9,10 @@ class RepresentativesController < ApplicationController
   end
 
   def create
-    @representative = Representative.new(params[:representative])
+    audit "rep create controller triggered"
+    audit params
+    @team = Team.find(params[:team_id])
+    @representative = @team.representatives.build(params[:representative])
     @representative.save
   end
 

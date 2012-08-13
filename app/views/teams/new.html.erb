@@ -1,6 +1,6 @@
 <h1> Create your caucus </h1><br/>
 
-<%= form_for [@team] do |f| %>
+<%= form_for @team do |f| %>
 
   <p>
     <%= f.label :name %>
@@ -12,5 +12,7 @@
       <%= render 'representatives_form', :f => builder %>
     </p>
   <%end %>
+
+  <%= f.submit %>
 
 <% end %>

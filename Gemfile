@@ -12,6 +12,7 @@ group :test, :development do
   gem "rspec-rails", "~> 2.0"
   gem 'capybara', '~>1.1.2'
   gem "fabrication", "~> 2.2.0"
+  gem "launchy", "~> 2.1.2"
 end
 
 group :assets do

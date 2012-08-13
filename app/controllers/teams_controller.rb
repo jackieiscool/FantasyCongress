@@ -10,8 +10,13 @@ class TeamsController < ApplicationController
   end
 
   def create
-    @team = Team.new(params[:poll])
-    @team.save
+    @team = Team.new(params[:team])
+    @team.user_id = current_user.id
+    if @team.save
+      redirect_to teams_path
+    else
+      render 'new'
+    end
   end
 
   def edit

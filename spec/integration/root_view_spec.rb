@@ -17,18 +17,23 @@ end
 
 describe "initial view once user logs in" do
 
-  Fabricator(:user) do
-    email "john@john.com"
-    password "johnjohn"
-    password_confirmation "johnjohn"
-  end
-
   it "should allow user to create a new caucus" do
-    visit root_path
-    fill_in('Email', :with => 'john@john.com')
-    fill_in('Password', :with => 'johnjohn')
-    click_link('Sign in')
+    #login_fab_user is defined in spec_helper.rb
+    login_fab_user
     page.should have_content('Create a new caucus')
   end
+
+  it "should not allow non-signed in user to create a new caucus" do
+    visit new_team_path
+    page.should_not have_content('Create a new caucus')
+  end
+
+  it "should have fields for creating a new team" do
+    login_fab_user
+    visit('/teams/new')
+    page.should have_content('Create your caucus')
+    page.should have_content('Representative')
+  end
+
 
 end

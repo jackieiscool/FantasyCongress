@@ -1,5 +1,5 @@
 # This file is copied to spec/ when you run 'rails generate rspec:install'
-ENV["RAILS_ENV"] ||= 'test'
+ENV["RAILS_ENV"] = 'test'
 require File.expand_path("../../config/environment", __FILE__)
 require 'rspec/rails'
 require 'rspec/autorun'
@@ -36,3 +36,20 @@ RSpec.configure do |config|
   #     --seed 1234
   config.order = "random"
 end
+
+
+def login_fab_user
+  Fabricate(:user)
+  visit root_path
+  fill_in('Email', :with => 'john@john.com')
+  fill_in('Password', :with => 'johnjohn')
+  click_button('Sign in')
+end
+
+# def create_fab_user
+  Fabricator(:user) do
+    email "john@john.com"
+    password "johnjohn"
+    password_confirmation "johnjohn"
+  end
+# end
