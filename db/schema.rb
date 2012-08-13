@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120812191222) do
+ActiveRecord::Schema.define(:version => 20120813054713) do
 
   create_table "bills", :force => true do |t|
     t.string   "title"
@@ -33,7 +33,14 @@ ActiveRecord::Schema.define(:version => 20120812191222) do
     t.string   "name"
     t.string   "state"
     t.string   "party"
-    t.integer  "caucus_id"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+    t.integer  "team_id"
+  end
+
+  create_table "teams", :force => true do |t|
+    t.string   "name"
+    t.integer  "user_id"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end

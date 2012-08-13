@@ -3,9 +3,11 @@ class RepresentativesController < ApplicationController
   end
 
   def new
+    @representative = Representative.new
   end
 
   def create
+    @representative = Representative.new(params[:representaive]
   end
 
   def edit
