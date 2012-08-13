@@ -7,7 +7,8 @@ class RepresentativesController < ApplicationController
   end
 
   def create
-    @representative = Representative.new(params[:representaive]
+    @representative = Representative.new(params[:representative])
+    @representative.save
   end
 
   def edit

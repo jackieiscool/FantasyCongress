@@ -1,5 +1,7 @@
 class TeamsController < ApplicationController
+
   def index
+
   end
 
   def new
@@ -9,6 +11,7 @@ class TeamsController < ApplicationController
 
   def create
     @team = Team.new(params[:poll])
+    @team.save
   end
 
   def edit
@@ -19,4 +22,5 @@ class TeamsController < ApplicationController
 
   def destroy
   end
+
 end
