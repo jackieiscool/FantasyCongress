@@ -1,16 +1,25 @@
 require 'net/http'
 
-url = URI.parse('http://api.realtimecongress.org/api/v1/bills.json?apikey=9d100a5aec4c4e7682548b5b436a57f9&page=2&per_page=20')
-req = Net::HTTP::Get.new(url.path)
-res = Net::HTTP.start(url.host, url.port) {|http|
-  http.request(req)
-}
+# #{x}
+#  25236
 
-#puts res.body
+(1..504).each do |x|
 
-x = File.open("bills3.json", "w+")
-x.write(res.body)
+  url_string = "http://api.realtimecongress.org/api/v1/bills.json?apikey=9d100a5aec4c4e7682548b5b436a57f9&page=#{x}&per_page=50"
+  url = URI.parse(url_string)
+  req = Net::HTTP::Get.new(url_string)
+  res = Net::HTTP.start(url.host, url.port) {|http|
+    http.request(req)
+  }
+  p "--------------------------------------"
+  p x
+  p res.body
+  p "--------------------------------------"
+  File.open("bills_new.json", "a") do |f|
+    f << res.body
+  end
+
+end
 
 
 
-# http://api.realtimecongress.org/api/v1/bills.json?apikey=9d100a5aec4c4e7682548b5b436a57f9
