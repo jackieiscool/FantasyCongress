@@ -11,7 +11,26 @@ namespace :populate do
       rep_info_hash[:bioguide_id] = rep.bioguide_id
       rep_info_hash[:state] = rep.state
       rep_info_hash[:party] = rep.party
-      Representative.create(rep_info_hash)
+      @rep = Representative.new(rep_info_hash)
+      begin
+        @rep.save
+        p "#{@rep.inspect} successfully added to fantasy congress"
+       rescue
+        p "#{@rep.inspect} already exists, not added"
+       else
+
+       ensure
+      #   p "the ensure statement executed"
+      end
+
+
+        # if @rep.save && !raise
+        #   p "#{rep_info_hash} successfully added to fantasy_congress "
+        # else
+        #   p "#{rep_info_hash[:lastname]} already exists, not added."
+        # end
+
+
     end
   end
 end

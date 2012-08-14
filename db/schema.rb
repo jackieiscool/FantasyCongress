@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120814221354) do
+ActiveRecord::Schema.define(:version => 20120814224721) do
 
   create_table "bills", :force => true do |t|
     t.string   "title"
@@ -32,6 +32,8 @@ ActiveRecord::Schema.define(:version => 20120814221354) do
     t.string   "bioguide_id"
     t.string   "lastname"
   end
+
+  add_index "representatives", ["bioguide_id"], :name => "index_representatives_on_bioguide_id", :unique => true
 
   create_table "teams", :force => true do |t|
     t.string   "name"
