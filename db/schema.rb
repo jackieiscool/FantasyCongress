@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120814224721) do
+ActiveRecord::Schema.define(:version => 20120815030814) do
 
   create_table "bills", :force => true do |t|
     t.string   "title"
@@ -20,6 +20,11 @@ ActiveRecord::Schema.define(:version => 20120814224721) do
     t.integer  "representative_id"
     t.datetime "created_at",        :null => false
     t.datetime "updated_at",        :null => false
+    t.string   "bioguide_id"
+    t.string   "unique_id"
+    t.string   "bill_type"
+    t.string   "chamber"
+    t.string   "enacted"
   end
 
   create_table "representatives", :force => true do |t|
