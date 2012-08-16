@@ -27,16 +27,7 @@ ActiveRecord::Schema.define(:version => 20120816034516) do
     t.string   "enacted"
   end
 
-  create_table "polls", :force => true do |t|
-    t.string   "state"
-    t.string   "party"
-    t.string   "legislators"
-    t.date     "date_of_birth"
-    t.string   "gender"
-    t.string   "user_name"
-    t.datetime "created_at",    :null => false
-    t.datetime "updated_at",    :null => false
-  end
+  add_index "bills", ["unique_id"], :name => "index_bills_on_unique_id", :unique => true
 
   create_table "positions", :force => true do |t|
     t.datetime "created_at",        :null => false
