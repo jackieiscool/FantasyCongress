@@ -1,4 +1,4 @@
 <p>
   <%= f.label :representative %>
-  <%= f.text_field :lastname %>
+  <%= f.text_field :lastname, data: {autocomplete_source: rep_object_path }, :class => "rep_picker" %>
 </p>

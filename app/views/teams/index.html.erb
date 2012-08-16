@@ -7,7 +7,11 @@
 <% else %>
   Team Name:<%= Team.find_by_user_id(current_user.id).name %>
   <% team = Team.find_by_user_id(current_user.id) %><br/>
+  <%= team.representatives.inspect%>
+    <%= team.representatives.class%>
+    <%= team.representatives.count%>
   <% team.representatives.each do |rep| %>
-    Rep Name: <%= rep.name %><br/>
-  <% end %>
+     Rep Name: <%= rep.firstname %> <%= rep.lastname%>
+     <br/>
+   <% end %>
 <% end %>

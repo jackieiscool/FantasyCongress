@@ -5,6 +5,7 @@ class RepresentativesController < ApplicationController
   end
 
   def new
+
     @representative = Representative.new
   end
 
@@ -24,4 +25,6 @@ class RepresentativesController < ApplicationController
 
   def destroy
   end
+
+
 end

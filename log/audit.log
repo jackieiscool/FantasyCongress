@@ -1,34 +1,159 @@
-# Logfile created on 2012-08-13 15:16:17 -0700 by logger.rb/31641
 
-[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:13:in `create'] at 2012-08-13 15:17:43 -0700
-Message: {"utf8"=>"✓", "authenticity_token"=>"iZOIj/D3PBjcKObk6NPIFJpb3lIE2mwMTK5UGCGhyUY=", "team"=>{"name"=>"", "representatives_attributes"=>{"0"=>{"name"=>""}, "1"=>{"name"=>""}, "2"=>{"name"=>""}, "3"=>{"name"=>""}, "4"=>{"name"=>""}}}, "commit"=>"Create Team", "action"=>"create", "controller"=>"teams"}
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:8:in `new'] at 2012-08-15 16:38:32 -0700
+Message: "new controller triggered"
 
-[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:13:in `create'] at 2012-08-13 15:18:09 -0700
-Message: {"utf8"=>"✓", "authenticity_token"=>"iZOIj/D3PBjcKObk6NPIFJpb3lIE2mwMTK5UGCGhyUY=", "team"=>{"name"=>"john test", "representatives_attributes"=>{"0"=>{"name"=>"john1"}, "1"=>{"name"=>"john2"}, "2"=>{"name"=>"john3"}, "3"=>{"name"=>"john4"}, "4"=>{"name"=>"john5"}}}, "commit"=>"Create Team", "action"=>"create", "controller"=>"teams"}
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:33:in `return_reps'] at 2012-08-15 16:38:39 -0700
+Message: "return reps controller triggered"
 
-[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:13:in `create'] at 2012-08-13 15:19:02 -0700
-Message: {"utf8"=>"✓", "authenticity_token"=>"iZOIj/D3PBjcKObk6NPIFJpb3lIE2mwMTK5UGCGhyUY=", "team"=>{"name"=>"john's new team", "representatives_attributes"=>{"0"=>{"name"=>""}, "1"=>{"name"=>""}, "2"=>{"name"=>""}, "3"=>{"name"=>""}, "4"=>{"name"=>""}}}, "commit"=>"Create Team", "action"=>"create", "controller"=>"teams"}
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:34:in `return_reps'] at 2012-08-15 16:38:39 -0700
+Message: {"term"=>"john", "action"=>"return_reps", "controller"=>"teams"}
 
-[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:13:in `create'] at 2012-08-13 15:20:11 -0700
-Message: {"utf8"=>"✓", "authenticity_token"=>"iZOIj/D3PBjcKObk6NPIFJpb3lIE2mwMTK5UGCGhyUY=", "team"=>{"name"=>"john's new team", "representatives_attributes"=>{"0"=>{"name"=>""}, "1"=>{"name"=>""}, "2"=>{"name"=>""}, "3"=>{"name"=>""}, "4"=>{"name"=>""}}}, "commit"=>"Create Team", "action"=>"create", "controller"=>"teams"}
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:8:in `new'] at 2012-08-15 16:38:51 -0700
+Message: "new controller triggered"
 
-[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:13:in `create'] at 2012-08-13 15:20:40 -0700
-Message: {"utf8"=>"✓", "authenticity_token"=>"iZOIj/D3PBjcKObk6NPIFJpb3lIE2mwMTK5UGCGhyUY=", "team"=>{"name"=>"Jackie's caucus", "representatives_attributes"=>{"0"=>{"name"=>""}, "1"=>{"name"=>""}, "2"=>{"name"=>""}, "3"=>{"name"=>""}, "4"=>{"name"=>""}}}, "commit"=>"Create Team", "action"=>"create", "controller"=>"teams"}
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:33:in `return_reps'] at 2012-08-15 16:38:54 -0700
+Message: "return reps controller triggered"
 
-[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:13:in `create'] at 2012-08-13 15:21:51 -0700
-Message: {"utf8"=>"✓", "authenticity_token"=>"iZOIj/D3PBjcKObk6NPIFJpb3lIE2mwMTK5UGCGhyUY=", "team"=>{"name"=>"Jackie's caucus", "representatives_attributes"=>{"0"=>{"name"=>""}, "1"=>{"name"=>""}, "2"=>{"name"=>""}, "3"=>{"name"=>""}, "4"=>{"name"=>""}}}, "commit"=>"Create Team", "action"=>"create", "controller"=>"teams"}
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:34:in `return_reps'] at 2012-08-15 16:38:54 -0700
+Message: {"term"=>"joihjadf", "action"=>"return_reps", "controller"=>"teams"}
 
-[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:13:in `create'] at 2012-08-13 15:22:20 -0700
-Message: {"utf8"=>"✓", "authenticity_token"=>"iZOIj/D3PBjcKObk6NPIFJpb3lIE2mwMTK5UGCGhyUY=", "team"=>{"name"=>"dkjsabvrjbwnkfbjn", "representatives_attributes"=>{"0"=>{"name"=>""}, "1"=>{"name"=>""}, "2"=>{"name"=>""}, "3"=>{"name"=>""}, "4"=>{"name"=>""}}}, "commit"=>"Create Team", "action"=>"create", "controller"=>"teams"}
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:37:in `return_reps'] at 2012-08-15 16:38:54 -0700
+Message: "json rendered correctly"
 
-[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:13:in `create'] at 2012-08-13 15:23:46 -0700
-Message: {"utf8"=>"✓", "authenticity_token"=>"iZOIj/D3PBjcKObk6NPIFJpb3lIE2mwMTK5UGCGhyUY=", "team"=>{"name"=>"fjkadbsnfjbnakjfn", "representatives_attributes"=>{"0"=>{"name"=>""}, "1"=>{"name"=>""}, "2"=>{"name"=>""}, "3"=>{"name"=>""}, "4"=>{"name"=>""}}}, "commit"=>"Create Team", "action"=>"create", "controller"=>"teams"}
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:33:in `return_reps'] at 2012-08-15 16:39:03 -0700
+Message: "return reps controller triggered"
 
-[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:13:in `create'] at 2012-08-13 15:25:43 -0700
-Message: {"utf8"=>"✓", "authenticity_token"=>"iZOIj/D3PBjcKObk6NPIFJpb3lIE2mwMTK5UGCGhyUY=", "team"=>{"name"=>"ajdsbakjrbnrkaje", "representatives_attributes"=>{"0"=>{"name"=>""}, "1"=>{"name"=>""}, "2"=>{"name"=>""}, "3"=>{"name"=>""}, "4"=>{"name"=>""}}}, "commit"=>"Create Team", "action"=>"create", "controller"=>"teams"}
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:34:in `return_reps'] at 2012-08-15 16:39:03 -0700
+Message: {"term"=>"j", "action"=>"return_reps", "controller"=>"teams"}
 
-[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:13:in `create'] at 2012-08-13 15:28:02 -0700
-Message: {"utf8"=>"✓", "authenticity_token"=>"iZOIj/D3PBjcKObk6NPIFJpb3lIE2mwMTK5UGCGhyUY=", "team"=>{"name"=>"john's new", "representatives_attributes"=>{"0"=>{"name"=>"rep1"}, "1"=>{"name"=>"rep2"}, "2"=>{"name"=>""}, "3"=>{"name"=>""}, "4"=>{"name"=>""}}}, "commit"=>"Create Team", "action"=>"create", "controller"=>"teams"}
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:37:in `return_reps'] at 2012-08-15 16:39:03 -0700
+Message: "json rendered correctly"
 
-[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:13:in `create'] at 2012-08-13 15:28:30 -0700
-Message: {"utf8"=>"✓", "authenticity_token"=>"iZOIj/D3PBjcKObk6NPIFJpb3lIE2mwMTK5UGCGhyUY=", "team"=>{"name"=>"john's new", "representatives_attributes"=>{"0"=>{"name"=>"rep1"}, "1"=>{"name"=>"rep2"}, "2"=>{"name"=>""}, "3"=>{"name"=>""}, "4"=>{"name"=>""}}}, "commit"=>"Create Team", "action"=>"create", "controller"=>"teams"}
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:8:in `new'] at 2012-08-15 16:59:07 -0700
+Message: "new controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:33:in `return_reps'] at 2012-08-15 16:59:10 -0700
+Message: "return reps controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:34:in `return_reps'] at 2012-08-15 16:59:10 -0700
+Message: {"term"=>"b", "action"=>"return_reps", "controller"=>"teams"}
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:33:in `return_reps'] at 2012-08-15 16:59:17 -0700
+Message: "return reps controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:34:in `return_reps'] at 2012-08-15 16:59:17 -0700
+Message: {"term"=>"E", "action"=>"return_reps", "controller"=>"teams"}
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:33:in `return_reps'] at 2012-08-15 16:59:18 -0700
+Message: "return reps controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:34:in `return_reps'] at 2012-08-15 16:59:18 -0700
+Message: {"term"=>"Ell", "action"=>"return_reps", "controller"=>"teams"}
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:33:in `return_reps'] at 2012-08-15 16:59:22 -0700
+Message: "return reps controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:34:in `return_reps'] at 2012-08-15 16:59:22 -0700
+Message: {"term"=>"Fran", "action"=>"return_reps", "controller"=>"teams"}
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:33:in `return_reps'] at 2012-08-15 16:59:32 -0700
+Message: "return reps controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:34:in `return_reps'] at 2012-08-15 16:59:32 -0700
+Message: {"term"=>"Kuci", "action"=>"return_reps", "controller"=>"teams"}
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:33:in `return_reps'] at 2012-08-15 16:59:51 -0700
+Message: "return reps controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:34:in `return_reps'] at 2012-08-15 16:59:51 -0700
+Message: {"term"=>"kjdaslabdsvkwjber", "action"=>"return_reps", "controller"=>"teams"}
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:33:in `return_reps'] at 2012-08-15 16:59:52 -0700
+Message: "return reps controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:34:in `return_reps'] at 2012-08-15 16:59:52 -0700
+Message: {"term"=>"k", "action"=>"return_reps", "controller"=>"teams"}
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:33:in `return_reps'] at 2012-08-15 16:59:54 -0700
+Message: "return reps controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:34:in `return_reps'] at 2012-08-15 16:59:54 -0700
+Message: {"term"=>"Mc", "action"=>"return_reps", "controller"=>"teams"}
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:33:in `return_reps'] at 2012-08-15 17:00:07 -0700
+Message: "return reps controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:34:in `return_reps'] at 2012-08-15 17:00:07 -0700
+Message: {"term"=>"ba", "action"=>"return_reps", "controller"=>"teams"}
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:33:in `return_reps'] at 2012-08-15 17:00:08 -0700
+Message: "return reps controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:34:in `return_reps'] at 2012-08-15 17:00:08 -0700
+Message: {"term"=>"bach", "action"=>"return_reps", "controller"=>"teams"}
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:33:in `return_reps'] at 2012-08-15 17:00:11 -0700
+Message: "return reps controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:34:in `return_reps'] at 2012-08-15 17:00:11 -0700
+Message: {"term"=>"B", "action"=>"return_reps", "controller"=>"teams"}
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:33:in `return_reps'] at 2012-08-15 17:00:11 -0700
+Message: "return reps controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:34:in `return_reps'] at 2012-08-15 17:00:11 -0700
+Message: {"term"=>"Ba", "action"=>"return_reps", "controller"=>"teams"}
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:33:in `return_reps'] at 2012-08-15 17:00:12 -0700
+Message: "return reps controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:34:in `return_reps'] at 2012-08-15 17:00:12 -0700
+Message: {"term"=>"Bac", "action"=>"return_reps", "controller"=>"teams"}
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:33:in `return_reps'] at 2012-08-15 17:00:14 -0700
+Message: "return reps controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:34:in `return_reps'] at 2012-08-15 17:00:14 -0700
+Message: {"term"=>"Ba", "action"=>"return_reps", "controller"=>"teams"}
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:33:in `return_reps'] at 2012-08-15 17:00:16 -0700
+Message: "return reps controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:34:in `return_reps'] at 2012-08-15 17:00:16 -0700
+Message: {"term"=>"Baa", "action"=>"return_reps", "controller"=>"teams"}
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:33:in `return_reps'] at 2012-08-15 17:00:17 -0700
+Message: "return reps controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:34:in `return_reps'] at 2012-08-15 17:00:17 -0700
+Message: {"term"=>"Baac", "action"=>"return_reps", "controller"=>"teams"}
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:33:in `return_reps'] at 2012-08-15 17:00:18 -0700
+Message: "return reps controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:34:in `return_reps'] at 2012-08-15 17:00:18 -0700
+Message: {"term"=>"Ba", "action"=>"return_reps", "controller"=>"teams"}
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:33:in `return_reps'] at 2012-08-15 17:00:18 -0700
+Message: "return reps controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:34:in `return_reps'] at 2012-08-15 17:00:18 -0700
+Message: {"term"=>"B", "action"=>"return_reps", "controller"=>"teams"}
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:33:in `return_reps'] at 2012-08-15 17:00:23 -0700
+Message: "return reps controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:34:in `return_reps'] at 2012-08-15 17:00:23 -0700
+Message: {"term"=>"Bc", "action"=>"return_reps", "controller"=>"teams"}
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:33:in `return_reps'] at 2012-08-15 17:00:24 -0700
+Message: "return reps controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:34:in `return_reps'] at 2012-08-15 17:00:24 -0700
+Message: {"term"=>"Ba", "action"=>"return_reps", "controller"=>"teams"}
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:33:in `return_reps'] at 2012-08-15 17:00:47 -0700
+Message: "return reps controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:34:in `return_reps'] at 2012-08-15 17:00:47 -0700
+Message: {"term"=>"McC", "action"=>"return_reps", "controller"=>"teams"}

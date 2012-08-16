@@ -1,0 +1,4 @@
+<% team.representatives.each do |rep| %>
+   Rep Name: <%= rep.firstname %> <%= rep.lastname%> Rep Points: <%= rep.find_points %>
+   <br/>
+ <% end %>
