@@ -4,14 +4,27 @@
 
 
   <%= link_to 'Create a new caucus', new_team_path %>
-<% else %>
+
+<% else %><br/>
   Team Name:<%= Team.find_by_user_id(current_user.id).name %>
+
   <% team = Team.find_by_user_id(current_user.id) %><br/>
-  <%= team.representatives.inspect%>
-    <%= team.representatives.class%>
-    <%= team.representatives.count%>
-  <% team.representatives.each do |rep| %>
-     Rep Name: <%= rep.firstname %> <%= rep.lastname%>
-     <br/>
-   <% end %>
+
+  <% if team.positions.count < 5 %>
+      <%= link_to "add legislators", new_team_position_path(team) %>
+      <% team.representatives.all.each do |rep| %><br/>
+        <%= rep.firstname %> <%= rep.lastname %> Rep Points: <%= find_points(rep) %><br />
+      <% end%>
+      <br/>
+  <% else %>
+      <% team.representatives.all.each do |rep| %>
+        <%= rep.firstname %> <%= rep.lastname %> Rep Points: <%= find_points(rep) %><br />
+      <% end%>
+  <% end %>
+
+  <br/>
+
+
+  <%= link_to "delete this team", team_path(team.id), :method => :delete %>
+
 <% end %>

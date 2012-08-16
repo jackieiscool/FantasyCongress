@@ -9,12 +9,11 @@
     <%= f.text_field :name %><br/>
   </p>
 
-  <%= f.fields_for :representatives do |builder| %>
-    <p>
-      <%= render 'representatives_form', :f => builder %>
-    </p>
-  <%end %>
+
 
   <%= f.submit %>
 
 <% end %>
+
+
+<%= @rep1.inspect %>

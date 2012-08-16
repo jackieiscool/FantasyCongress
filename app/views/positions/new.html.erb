@@ -1,0 +1,9 @@
+<%= form_for([@team, @position]) do |f| %>
+<%= f.label :lastname %>
+<%= f.text_field :lastname, data: {autocomplete_source: rep_object_path }, :class => "rep_picker" %>
+<%= f.submit :add_member %>
+<% end %>
+
+
+
+

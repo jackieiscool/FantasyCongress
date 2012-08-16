@@ -157,3 +157,420 @@ Message: "return reps controller triggered"
 
 [/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:34:in `return_reps'] at 2012-08-15 17:00:47 -0700
 Message: {"term"=>"McC", "action"=>"return_reps", "controller"=>"teams"}
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:8:in `new'] at 2012-08-15 17:41:19 -0700
+Message: "new controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:33:in `return_reps'] at 2012-08-15 17:41:49 -0700
+Message: "return reps controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:34:in `return_reps'] at 2012-08-15 17:41:49 -0700
+Message: {"term"=>"contra", "action"=>"return_reps", "controller"=>"teams"}
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:8:in `new'] at 2012-08-15 17:43:33 -0700
+Message: "new controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:34:in `return_reps'] at 2012-08-15 17:43:37 -0700
+Message: "return reps controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:35:in `return_reps'] at 2012-08-15 17:43:37 -0700
+Message: {"term"=>"j", "action"=>"return_reps", "controller"=>"teams"}
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:34:in `return_reps'] at 2012-08-15 17:43:38 -0700
+Message: "return reps controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:35:in `return_reps'] at 2012-08-15 17:43:38 -0700
+Message: {"term"=>"j", "action"=>"return_reps", "controller"=>"teams"}
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:34:in `return_reps'] at 2012-08-15 17:43:40 -0700
+Message: "return reps controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:35:in `return_reps'] at 2012-08-15 17:43:40 -0700
+Message: {"term"=>"j", "action"=>"return_reps", "controller"=>"teams"}
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:14:in `create'] at 2012-08-15 17:43:42 -0700
+Message: {"utf8"=>"✓", "authenticity_token"=>"cXClTc7WXBB0LBJ3Ip41WU2yeu4wLopT7j5gmeF8S4k=", "team"=>{"name"=>"second test", "representatives_attributes"=>{"0"=>{"lastname"=>"j"}, "1"=>{"lastname"=>"j"}, "2"=>{"lastname"=>"j"}, "3"=>{"lastname"=>"j"}, "4"=>{"lastname"=>"j"}}}, "commit"=>"Create Team", "action"=>"create", "controller"=>"teams"}
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:8:in `new'] at 2012-08-15 17:45:02 -0700
+Message: "new controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:35:in `return_reps'] at 2012-08-15 17:45:06 -0700
+Message: "return reps controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:36:in `return_reps'] at 2012-08-15 17:45:06 -0700
+Message: {"term"=>"j", "action"=>"return_reps", "controller"=>"teams"}
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:14:in `create'] at 2012-08-15 17:45:09 -0700
+Message: {"utf8"=>"✓", "authenticity_token"=>"fkG/dGYGBJyqGp0Bn7L9gRls+Z7fyksIytEtW2i8udw=", "team"=>{"name"=>"john", "representatives_attributes"=>{"0"=>{"lastname"=>"j"}, "1"=>{"lastname"=>"j"}, "2"=>{"lastname"=>"h"}, "3"=>{"lastname"=>"h"}, "4"=>{"lastname"=>"h"}}}, "commit"=>"Create Team", "action"=>"create", "controller"=>"teams"}
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:17:in `create'] at 2012-08-15 17:45:09 -0700
+Message: #<Team id: nil, name: "john", user_id: 6, created_at: nil, updated_at: nil>
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:8:in `new'] at 2012-08-15 17:46:29 -0700
+Message: "new controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:36:in `return_reps'] at 2012-08-15 17:46:33 -0700
+Message: "return reps controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:37:in `return_reps'] at 2012-08-15 17:46:33 -0700
+Message: {"term"=>"s", "action"=>"return_reps", "controller"=>"teams"}
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:36:in `return_reps'] at 2012-08-15 17:46:33 -0700
+Message: "return reps controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:37:in `return_reps'] at 2012-08-15 17:46:33 -0700
+Message: {"term"=>"s", "action"=>"return_reps", "controller"=>"teams"}
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:14:in `create'] at 2012-08-15 17:46:36 -0700
+Message: {"utf8"=>"✓", "authenticity_token"=>"w1Ql1qk9bTw76/8uyl0qzNvOduTHY5dNg0YwLWEaswc=", "team"=>{"name"=>"six", "representatives_attributes"=>{"0"=>{"lastname"=>"s"}, "1"=>{"lastname"=>"s"}, "2"=>{"lastname"=>"s"}, "3"=>{"lastname"=>"s"}, "4"=>{"lastname"=>"s"}}}, "commit"=>"Create Team", "action"=>"create", "controller"=>"teams"}
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:17:in `create'] at 2012-08-15 17:46:36 -0700
+Message: #<Team id: nil, name: "six", user_id: 7, created_at: nil, updated_at: nil>
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:18:in `create'] at 2012-08-15 17:46:36 -0700
+Message: [#<Representative id: nil, firstname: nil, state: nil, party: nil, created_at: nil, updated_at: nil, team_id: nil, bioguide_id: nil, lastname: "s">, #<Representative id: nil, firstname: nil, state: nil, party: nil, created_at: nil, updated_at: nil, team_id: nil, bioguide_id: nil, lastname: "s">, #<Representative id: nil, firstname: nil, state: nil, party: nil, created_at: nil, updated_at: nil, team_id: nil, bioguide_id: nil, lastname: "s">, #<Representative id: nil, firstname: nil, state: nil, party: nil, created_at: nil, updated_at: nil, team_id: nil, bioguide_id: nil, lastname: "s">, #<Representative id: nil, firstname: nil, state: nil, party: nil, created_at: nil, updated_at: nil, team_id: nil, bioguide_id: nil, lastname: "s">]
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:8:in `new'] at 2012-08-15 17:50:28 -0700
+Message: "new controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:8:in `new'] at 2012-08-15 17:52:18 -0700
+Message: "new controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:8:in `new'] at 2012-08-15 17:57:30 -0700
+Message: "new controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:8:in `new'] at 2012-08-15 17:58:41 -0700
+Message: "new controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:8:in `new'] at 2012-08-15 17:59:15 -0700
+Message: "new controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:8:in `new'] at 2012-08-15 18:01:02 -0700
+Message: "new controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:8:in `new'] at 2012-08-15 19:18:23 -0700
+Message: "new controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:8:in `new'] at 2012-08-15 19:19:33 -0700
+Message: "new controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:36:in `destroy'] at 2012-08-15 19:37:31 -0700
+Message: "destroy controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:37:in `destroy'] at 2012-08-15 19:37:31 -0700
+Message: {"_method"=>"delete", "authenticity_token"=>"rjDsvTMrydNM0y65J9z12Z9IdMvBKtXkNQL7C1TOR1E=", "action"=>"destroy", "controller"=>"teams", "id"=>"1"}
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:38:in `destroy'] at 2012-08-15 19:37:31 -0700
+Message: #<Team id: 1, name: "", user_id: 1, created_at: "2012-08-15 22:45:05", updated_at: "2012-08-15 22:45:05">
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:8:in `new'] at 2012-08-15 19:40:18 -0700
+Message: "new controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:14:in `create'] at 2012-08-15 19:40:23 -0700
+Message: {"utf8"=>"✓", "authenticity_token"=>"rjDsvTMrydNM0y65J9z12Z9IdMvBKtXkNQL7C1TOR1E=", "team"=>{"name"=>"Funky Town"}, "commit"=>"Create Team", "action"=>"create", "controller"=>"teams"}
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:17:in `create'] at 2012-08-15 19:40:23 -0700
+Message: #<Team id: nil, name: "Funky Town", user_id: 1, created_at: nil, updated_at: nil>
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:18:in `create'] at 2012-08-15 19:40:23 -0700
+Message: []
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:13:in `create'] at 2012-08-15 19:43:22 -0700
+Message: {"utf8"=>"✓", "authenticity_token"=>"rjDsvTMrydNM0y65J9z12Z9IdMvBKtXkNQL7C1TOR1E=", "team"=>{"name"=>"more funky town"}, "commit"=>"Create Team", "action"=>"create", "controller"=>"teams"}
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:13:in `create'] at 2012-08-15 19:44:18 -0700
+Message: "create controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:14:in `create'] at 2012-08-15 19:44:18 -0700
+Message: {"utf8"=>"✓", "authenticity_token"=>"rjDsvTMrydNM0y65J9z12Z9IdMvBKtXkNQL7C1TOR1E=", "team"=>{"name"=>"more funy"}, "commit"=>"Create Team", "action"=>"create", "controller"=>"teams"}
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:13:in `create'] at 2012-08-15 19:49:48 -0700
+Message: "create controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:14:in `create'] at 2012-08-15 19:49:48 -0700
+Message: {"utf8"=>"✓", "authenticity_token"=>"rjDsvTMrydNM0y65J9z12Z9IdMvBKtXkNQL7C1TOR1E=", "team"=>{"name"=>"Some New Team"}, "commit"=>"Create Team", "action"=>"create", "controller"=>"teams"}
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:13:in `create'] at 2012-08-15 19:50:28 -0700
+Message: "create controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/teams_controller.rb:14:in `create'] at 2012-08-15 19:50:28 -0700
+Message: {"utf8"=>"✓", "authenticity_token"=>"rjDsvTMrydNM0y65J9z12Z9IdMvBKtXkNQL7C1TOR1E=", "team"=>{"name"=>"Funky Team"}, "commit"=>"Create Team", "action"=>"create", "controller"=>"teams"}
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/representatives_controller.rb:14:in `create'] at 2012-08-15 20:20:29 -0700
+Message: "rep create controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/representatives_controller.rb:15:in `create'] at 2012-08-15 20:20:29 -0700
+Message: {"utf8"=>"✓", "authenticity_token"=>"rjDsvTMrydNM0y65J9z12Z9IdMvBKtXkNQL7C1TOR1E=", "representative"=>{"lastname"=>"john"}, "commit"=>"Add", "action"=>"create", "controller"=>"representatives"}
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:10:in `create'] at 2012-08-15 21:29:49 -0700
+Message: {"utf8"=>"✓", "authenticity_token"=>"hWNu2OU4GH6rfB3CaCgDZ419sf02YA0up0mC0t1tonQ=", "position"=>{"lastname"=>"something here"}, "commit"=>"create", "action"=>"create", "controller"=>"positions"}
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:4:in `new'] at 2012-08-15 21:40:20 -0700
+Message: "new positions controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:4:in `new'] at 2012-08-15 21:41:14 -0700
+Message: "new positions controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:4:in `new'] at 2012-08-15 21:41:18 -0700
+Message: "new positions controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:4:in `new'] at 2012-08-15 21:43:39 -0700
+Message: "new positions controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:4:in `new'] at 2012-08-15 21:44:58 -0700
+Message: "new positions controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:4:in `new'] at 2012-08-15 21:46:19 -0700
+Message: "new positions controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:4:in `new'] at 2012-08-15 21:46:44 -0700
+Message: "new positions controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:4:in `new'] at 2012-08-15 21:47:51 -0700
+Message: "new positions controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:4:in `new'] at 2012-08-15 21:49:01 -0700
+Message: "new positions controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:4:in `new'] at 2012-08-15 21:49:20 -0700
+Message: "new positions controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:4:in `new'] at 2012-08-15 21:50:06 -0700
+Message: "new positions controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:4:in `new'] at 2012-08-15 21:51:04 -0700
+Message: "new positions controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:4:in `new'] at 2012-08-15 21:53:03 -0700
+Message: "new positions controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:4:in `new'] at 2012-08-15 21:55:11 -0700
+Message: "new positions controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:4:in `new'] at 2012-08-15 21:56:40 -0700
+Message: "new positions controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:4:in `new'] at 2012-08-15 22:00:20 -0700
+Message: "new positions controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:4:in `new'] at 2012-08-15 22:00:39 -0700
+Message: "new positions controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:4:in `new'] at 2012-08-15 22:00:53 -0700
+Message: "new positions controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:4:in `new'] at 2012-08-15 22:03:37 -0700
+Message: "new positions controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:4:in `new'] at 2012-08-15 22:05:09 -0700
+Message: "new positions controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:4:in `new'] at 2012-08-15 22:06:17 -0700
+Message: "new positions controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:4:in `new'] at 2012-08-15 22:09:42 -0700
+Message: "new positions controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:4:in `new'] at 2012-08-15 22:10:49 -0700
+Message: "new positions controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:4:in `new'] at 2012-08-15 22:13:36 -0700
+Message: "new positions controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:4:in `new'] at 2012-08-15 22:14:37 -0700
+Message: "new positions controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:4:in `new'] at 2012-08-15 22:15:31 -0700
+Message: "new positions controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:4:in `new'] at 2012-08-15 22:16:07 -0700
+Message: "new positions controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:4:in `new'] at 2012-08-15 22:16:50 -0700
+Message: "new positions controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:4:in `new'] at 2012-08-15 22:17:25 -0700
+Message: "new positions controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:4:in `new'] at 2012-08-15 22:17:55 -0700
+Message: "new positions controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:4:in `new'] at 2012-08-15 22:18:23 -0700
+Message: "new positions controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:10:in `create'] at 2012-08-15 22:18:48 -0700
+Message: "create positions controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:11:in `create'] at 2012-08-15 22:18:48 -0700
+Message: {"utf8"=>"✓", "authenticity_token"=>"hWNu2OU4GH6rfB3CaCgDZ419sf02YA0up0mC0t1tonQ=", "position"=>{"lastname"=>"Alexander"}, "commit"=>"shereiffuckingrocks", "action"=>"create", "controller"=>"positions", "team_id"=>"13"}
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:4:in `new'] at 2012-08-15 22:19:55 -0700
+Message: "new positions controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:10:in `create'] at 2012-08-15 22:19:59 -0700
+Message: "create positions controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:11:in `create'] at 2012-08-15 22:19:59 -0700
+Message: {"utf8"=>"✓", "authenticity_token"=>"hWNu2OU4GH6rfB3CaCgDZ419sf02YA0up0mC0t1tonQ=", "position"=>{"lastname"=>"Amash"}, "commit"=>"add_member", "action"=>"create", "controller"=>"positions", "team_id"=>"13"}
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:4:in `new'] at 2012-08-15 22:20:11 -0700
+Message: "new positions controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:10:in `create'] at 2012-08-15 22:21:04 -0700
+Message: "create positions controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:11:in `create'] at 2012-08-15 22:21:04 -0700
+Message: {"utf8"=>"✓", "authenticity_token"=>"hWNu2OU4GH6rfB3CaCgDZ419sf02YA0up0mC0t1tonQ=", "position"=>{"lastname"=>"Barrasso"}, "commit"=>"add_member", "action"=>"create", "controller"=>"positions", "team_id"=>"13"}
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:4:in `new'] at 2012-08-15 22:29:21 -0700
+Message: "new positions controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:10:in `create'] at 2012-08-15 22:29:28 -0700
+Message: "create positions controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:11:in `create'] at 2012-08-15 22:29:28 -0700
+Message: {"utf8"=>"✓", "authenticity_token"=>"hWNu2OU4GH6rfB3CaCgDZ419sf02YA0up0mC0t1tonQ=", "position"=>{"lastname"=>"Burgess"}, "commit"=>"add_member", "action"=>"create", "controller"=>"positions", "team_id"=>"13"}
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:4:in `new'] at 2012-08-15 22:30:33 -0700
+Message: "new positions controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:10:in `create'] at 2012-08-15 22:30:38 -0700
+Message: "create positions controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:11:in `create'] at 2012-08-15 22:30:38 -0700
+Message: {"utf8"=>"✓", "authenticity_token"=>"hWNu2OU4GH6rfB3CaCgDZ419sf02YA0up0mC0t1tonQ=", "position"=>{"lastname"=>"Pallone"}, "commit"=>"add_member", "action"=>"create", "controller"=>"positions", "team_id"=>"13"}
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:4:in `new'] at 2012-08-15 22:31:36 -0700
+Message: "new positions controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:10:in `create'] at 2012-08-15 22:31:42 -0700
+Message: "create positions controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:11:in `create'] at 2012-08-15 22:31:42 -0700
+Message: {"utf8"=>"✓", "authenticity_token"=>"hWNu2OU4GH6rfB3CaCgDZ419sf02YA0up0mC0t1tonQ=", "position"=>{"lastname"=>"Israel"}, "commit"=>"add_member", "action"=>"create", "controller"=>"positions", "team_id"=>"13"}
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:4:in `new'] at 2012-08-15 22:31:47 -0700
+Message: "new positions controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:10:in `create'] at 2012-08-15 22:31:51 -0700
+Message: "create positions controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:11:in `create'] at 2012-08-15 22:31:51 -0700
+Message: {"utf8"=>"✓", "authenticity_token"=>"hWNu2OU4GH6rfB3CaCgDZ419sf02YA0up0mC0t1tonQ=", "position"=>{"lastname"=>"Brady"}, "commit"=>"add_member", "action"=>"create", "controller"=>"positions", "team_id"=>"13"}
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:4:in `new'] at 2012-08-15 22:31:52 -0700
+Message: "new positions controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:10:in `create'] at 2012-08-15 22:31:57 -0700
+Message: "create positions controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:11:in `create'] at 2012-08-15 22:31:57 -0700
+Message: {"utf8"=>"✓", "authenticity_token"=>"hWNu2OU4GH6rfB3CaCgDZ419sf02YA0up0mC0t1tonQ=", "position"=>{"lastname"=>"Aderholt"}, "commit"=>"add_member", "action"=>"create", "controller"=>"positions", "team_id"=>"13"}
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:4:in `new'] at 2012-08-15 22:41:11 -0700
+Message: "new positions controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:10:in `create'] at 2012-08-15 22:41:20 -0700
+Message: "create positions controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:11:in `create'] at 2012-08-15 22:41:20 -0700
+Message: {"utf8"=>"✓", "authenticity_token"=>"hWNu2OU4GH6rfB3CaCgDZ419sf02YA0up0mC0t1tonQ=", "position"=>{"lastname"=>"Alexander"}, "commit"=>"add_member", "action"=>"create", "controller"=>"positions", "team_id"=>"13"}
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:4:in `new'] at 2012-08-15 22:43:49 -0700
+Message: "new positions controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:4:in `new'] at 2012-08-15 22:44:18 -0700
+Message: "new positions controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:10:in `create'] at 2012-08-15 22:44:22 -0700
+Message: "create positions controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:11:in `create'] at 2012-08-15 22:44:22 -0700
+Message: {"utf8"=>"✓", "authenticity_token"=>"hWNu2OU4GH6rfB3CaCgDZ419sf02YA0up0mC0t1tonQ=", "position"=>{"lastname"=>"Altmire"}, "commit"=>"add_member", "action"=>"create", "controller"=>"positions", "team_id"=>"13"}
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:14:in `create'] at 2012-08-15 22:44:22 -0700
+Message: #<Position id: nil, created_at: nil, updated_at: nil, team_id: nil, representative_id: 7>
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:4:in `new'] at 2012-08-15 22:45:18 -0700
+Message: "new positions controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:10:in `create'] at 2012-08-15 22:45:23 -0700
+Message: "create positions controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:11:in `create'] at 2012-08-15 22:45:23 -0700
+Message: {"lastname"=>"Austria"}
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:14:in `create'] at 2012-08-15 22:45:23 -0700
+Message: #<Position id: nil, created_at: nil, updated_at: nil, team_id: nil, representative_id: 11>
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:10:in `create'] at 2012-08-15 22:46:23 -0700
+Message: "create positions controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:11:in `create'] at 2012-08-15 22:46:23 -0700
+Message: {"lastname"=>"Barrow"}
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:10:in `create'] at 2012-08-15 22:48:00 -0700
+Message: "create positions controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:15:in `create'] at 2012-08-15 22:48:00 -0700
+Message: #<Position id: nil, created_at: nil, updated_at: nil, team_id: nil, representative_id: 115>
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:10:in `create'] at 2012-08-15 22:50:00 -0700
+Message: "create positions controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:15:in `create'] at 2012-08-15 22:50:01 -0700
+Message: #<Position id: nil, created_at: nil, updated_at: nil, team_id: 1, representative_id: 38>
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:10:in `create'] at 2012-08-15 22:50:20 -0700
+Message: "create positions controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:15:in `create'] at 2012-08-15 22:50:20 -0700
+Message: #<Position id: nil, created_at: nil, updated_at: nil, team_id: 1, representative_id: 247>
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:10:in `create'] at 2012-08-15 22:50:29 -0700
+Message: "create positions controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:15:in `create'] at 2012-08-15 22:50:29 -0700
+Message: #<Position id: nil, created_at: nil, updated_at: nil, team_id: 1, representative_id: 200>
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:10:in `create'] at 2012-08-15 23:05:04 -0700
+Message: "create positions controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:15:in `create'] at 2012-08-15 23:05:04 -0700
+Message: #<Position id: nil, created_at: nil, updated_at: nil, team_id: 1, representative_id: 13>
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:10:in `create'] at 2012-08-15 23:07:35 -0700
+Message: "create positions controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:11:in `create'] at 2012-08-15 23:07:35 -0700
+Message: "params"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:12:in `create'] at 2012-08-15 23:07:35 -0700
+Message: {"utf8"=>"✓", "authenticity_token"=>"CrDhT6A+weW4puelt+h3AzjpjxMEdDmwPkmUleSjFhg=", "position"=>{"lastname"=>"Ackerman"}, "commit"=>"add_member", "action"=>"create", "controller"=>"positions", "team_id"=>"14"}
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:16:in `create'] at 2012-08-15 23:07:35 -0700
+Message: "params[:team_id]"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:17:in `create'] at 2012-08-15 23:07:35 -0700
+Message: "14"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:10:in `create'] at 2012-08-15 23:08:57 -0700
+Message: "create positions controller triggered"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:11:in `create'] at 2012-08-15 23:08:57 -0700
+Message: "params"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:12:in `create'] at 2012-08-15 23:08:57 -0700
+Message: {"utf8"=>"✓", "authenticity_token"=>"CrDhT6A+weW4puelt+h3AzjpjxMEdDmwPkmUleSjFhg=", "position"=>{"lastname"=>"Akaka"}, "commit"=>"add_member", "action"=>"create", "controller"=>"positions", "team_id"=>"14"}
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:16:in `create'] at 2012-08-15 23:08:57 -0700
+Message: "params[:team_id]"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:17:in `create'] at 2012-08-15 23:08:57 -0700
+Message: "14"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:18:in `create'] at 2012-08-15 23:08:57 -0700
+Message: "@position object before save"
+
+[/Users/apprentice/Desktop/FantasyCongress/app/controllers/positions_controller.rb:19:in `create'] at 2012-08-15 23:08:57 -0700
+Message: #<Position id: nil, created_at: nil, updated_at: nil, team_id: 14, representative_id: 3>

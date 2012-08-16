@@ -5,9 +5,7 @@ class TeamsController < ApplicationController
   end
 
   def new
-    audit "new controller triggered"
     @team = Team.new
-      5.times { @team.representatives.build }
   end
 
   def create
@@ -27,13 +25,14 @@ class TeamsController < ApplicationController
   end
 
   def destroy
+    @team = Team.find(params[:id])
+    @team.destroy
+    redirect_to root_path
   end
 
   def return_reps
-    audit "return reps controller triggered"
-    audit params
     @reps = Representative.order(:lastname).where("lastname like ?", "%#{params[:term]}%")
-      render json: @reps.map(&:lastname)
+    render json: @reps.map(&:lastname)
   end
 
 end
