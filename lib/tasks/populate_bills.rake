@@ -8,6 +8,7 @@ namespace :bills do
 
     (1..500).each do |loop|
 
+    sleep 1.0
     url_string = "http://api.realtimecongress.org/api/v1/bills.json?apikey=9d100a5aec4c4e7682548b5b436a57f9&page=#{loop}&per_page=50"
     url = URI.parse(url_string)
     req = Net::HTTP::Get.new(url_string)
