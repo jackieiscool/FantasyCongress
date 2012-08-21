@@ -4,7 +4,7 @@ class CreateRepresentatives < ActiveRecord::Migration
       t.string :name
       t.string :state
       t.string :party
-      t.integer :caucus_id
+      t.integer :team_id
 
       t.timestamps
     end
