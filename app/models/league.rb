@@ -1,13 +1,15 @@
 # == Schema Information
 #
-# Table name: teams
+# Table name: leagues
 #
 #  id         :integer          not null, primary key
 #  name       :string(255)
-#  user_id    :integer
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
-#  league_id  :integer
 #
 
-require 'spec_helper'
+class League < ActiveRecord::Base
+  attr_accessible :name
+
+  has_many :teams
+end

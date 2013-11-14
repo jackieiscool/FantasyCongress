@@ -7,6 +7,7 @@ gem 'devise', '~> 2.1.2'
 gem 'twitter-bootstrap-rails', '~> 2.1.1'
 gem 'congress'
 gem 'sunlight'
+gem 'annotate', ">=2.5.0"
 
 group :test, :development do
   gem "rspec-rails", "~> 2.0"
