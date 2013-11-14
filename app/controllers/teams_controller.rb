@@ -1,13 +1,5 @@
 class TeamsController < ApplicationController
 
-  def index
-
-  end
-
-  def new
-    @team = Team.new
-  end
-
   def create
     league = League.find(params[:league_id])
     @team = league.teams.build(params[:team])

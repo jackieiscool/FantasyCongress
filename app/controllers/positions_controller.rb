@@ -15,18 +15,6 @@ class PositionsController < ApplicationController
     else
       render 'new'
     end
-    # team_id = current_team.id
-    # rep_id = rep.find_by_lastname.id
-  end
-
-  def index
-  end
-
-  def destroy
-
-  end
-
-  def index
   end
 
 end

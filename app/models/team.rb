@@ -14,8 +14,7 @@ class Team < ActiveRecord::Base
   attr_accessible :name, :user_id, :representatives_attributes, :polls_attributes
   belongs_to :user
   belongs_to :league
-  has_many :representatives, :through => :positions
   has_many :positions
-  #accepts_nested_attributes_for :representatives
-  
+  has_many :representatives, :through => :positions
+
 end
