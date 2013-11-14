@@ -1,13 +1,15 @@
 <h1><%= @league.name %></h1>
 
 <h4>Teams</h4>
+<ul>
 <% @teams.each do |team| %>
-  <%= team.name + ' : ' + team.user.name %> 
+  <li><%= team.name + ' : ' + team.user.email %></li>
 <% end %>
+</ul>
 
-<h5>Join This League</h5>
+<button id="join_league">Join League</button>
 
-<%= form_for [@league, @team] do |f| %>
+<%= form_for [@league, @team], :html => {:class => "new_team"} do |f| %>
   <p>
     <%= f.label :name %>
     <%= f.text_field :name %><br/>
