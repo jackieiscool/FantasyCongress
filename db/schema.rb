@@ -40,10 +40,9 @@ ActiveRecord::Schema.define(:version => 20120816034516) do
     t.string   "firstname"
     t.string   "state"
     t.string   "party"
-    t.integer  "caucus_id"
+    t.integer  "team_id"
     t.datetime "created_at",  :null => false
     t.datetime "updated_at",  :null => false
-    t.integer  "team_id"
     t.string   "bioguide_id"
     t.string   "lastname"
   end
