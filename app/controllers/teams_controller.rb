@@ -5,9 +5,9 @@ class TeamsController < ApplicationController
     @team = league.teams.build(params[:team])
     @team.user_id = current_user.id
     if @team.save
-      redirect_to league_teams_path
+      render :json => @team
     else
-      render 'new'
+      flash[:errors] = @team.errors.full_messages
     end
   end
 

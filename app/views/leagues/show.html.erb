@@ -9,10 +9,10 @@
 
 <button id="join_league">Join League</button>
 
-<%= form_for [@league, @team], :html => {:class => "new_team"} do |f| %>
-  <p>
+<div class='padded'>
+  <%= form_for [@league, @team], remote: true, :html => {:class => "new_team"} do |f| %>
     <%= f.label :name %>
-    <%= f.text_field :name %><br/>
-  </p>
-  <%= f.submit %>
-<% end %>
+    <%= f.text_field :name %>
+    <%= f.submit %>
+  <% end %>
+</div>

@@ -19,30 +19,24 @@
   </head>
   <body>
 
-    <div id="user_nav" class="container">
-      <% if user_signed_in? %>
-        Signed in as <%= current_user.email %>. Not you?
-        <%= link_to "Sign out", destroy_user_session_path, :method => :delete %>
-      <% else %>
-        <%= link_to "Sign up", new_user_registration_path %> or
-        <%= link_to "Sign in", new_user_session_path %>
-      <% end %>
+    <div id="user_nav" class="navbar navbar-inverse navbar-static-top" role='navigation'>
+      <div class='navbar-header'>
+        <div class='navbar-brand'>Fantasy Congress</div>
+      </div>
+      <div class='navbar-collapse collapse'>
+        <ul class='nav navbar-nav'>
+          <% if user_signed_in? %>
+          <li> <%= link_to "Sign out", destroy_user_session_path, :method => :delete %></li>
+          <% else %>
+          <li><%= link_to "Sign up", new_user_registration_path %></li>
+          <li><%= link_to "Sign in", new_user_session_path %></li>
+          <% end %>
+        </ul>
+      </div>
     </div>
 
-    <div class="container">
-      <div class="content">
-        <div class="row">
-           <div class="span9">
-              <%= yield %>
-            </div>
-
-        </div>
-      </div>
-
-      <footer>
-        <p>&copy; Company 2012</p>
-      </footer>
-
+    <div class="container theme-showcase">
+      <%= yield %>
     </div>
 
     <!-- Javascripts
