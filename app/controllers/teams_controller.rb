@@ -9,10 +9,11 @@ class TeamsController < ApplicationController
   end
 
   def create
-    @team = Team.new(params[:team])
+    league = League.find(params[:league_id])
+    @team = league.teams.build(params[:team])
     @team.user_id = current_user.id
     if @team.save
-      redirect_to teams_path
+      redirect_to league_teams_path
     else
       render 'new'
     end

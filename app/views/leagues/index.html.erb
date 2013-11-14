@@ -1,0 +1,11 @@
+<h1>Welcome to Fantasy Congress </h1>
+
+<h3>Join a League</h3>
+
+<ul>
+<% @leagues.each do |league| %>
+  <li><%= link_to league.name , league_path(league.id) %></li>
+<% end %>
+</ul>
+
+<%= link_to 'Create New League', new_league_path %>

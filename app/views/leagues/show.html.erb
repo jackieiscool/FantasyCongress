@@ -1,0 +1,16 @@
+<h1><%= @league.name %></h1>
+
+<h4>Teams</h4>
+<% @teams.each do |team| %>
+  <%= team.name + ' : ' + team.user.name %> 
+<% end %>
+
+<h5>Join This League</h5>
+
+<%= form_for [@league, @team] do |f| %>
+  <p>
+    <%= f.label :name %>
+    <%= f.text_field :name %><br/>
+  </p>
+  <%= f.submit %>
+<% end %>
