@@ -11,40 +11,40 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120816034516) do
+ActiveRecord::Schema.define(:version => 20120816033925) do
 
   create_table "bills", :force => true do |t|
     t.string   "title"
     t.string   "description"
     t.string   "status"
     t.integer  "representative_id"
-    t.datetime "created_at",        :null => false
-    t.datetime "updated_at",        :null => false
     t.string   "bioguide_id"
     t.string   "unique_id"
     t.string   "bill_type"
     t.string   "chamber"
     t.string   "enacted"
+    t.datetime "created_at",        :null => false
+    t.datetime "updated_at",        :null => false
   end
 
   add_index "bills", ["unique_id"], :name => "index_bills_on_unique_id", :unique => true
 
   create_table "positions", :force => true do |t|
-    t.datetime "created_at",        :null => false
-    t.datetime "updated_at",        :null => false
     t.integer  "team_id"
     t.integer  "representative_id"
+    t.datetime "created_at",        :null => false
+    t.datetime "updated_at",        :null => false
   end
 
   create_table "representatives", :force => true do |t|
     t.string   "firstname"
+    t.string   "lastname"
     t.string   "state"
     t.string   "party"
     t.integer  "team_id"
+    t.string   "bioguide_id"
     t.datetime "created_at",  :null => false
     t.datetime "updated_at",  :null => false
-    t.string   "bioguide_id"
-    t.string   "lastname"
   end
 
   add_index "representatives", ["bioguide_id"], :name => "index_representatives_on_bioguide_id", :unique => true
