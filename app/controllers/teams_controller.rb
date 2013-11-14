@@ -4,11 +4,8 @@ class TeamsController < ApplicationController
     league = League.find(params[:league_id])
     @team = league.teams.build(params[:team])
     @team.user_id = current_user.id
-    if @team.save
-      render :json => @team
-    else
-      flash[:errors] = @team.errors.full_messages
-    end
+    @team.save
+    @position = Position.new
   end
 
   def edit

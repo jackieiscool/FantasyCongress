@@ -1,0 +1,5 @@
+$('.teams_list').append('<li class="current_team"><%= j @team.name + ' : ' + @team.user.email %></li>');
+$('.teams_list').append('<%= j render partial: "representatives_form" %>');
+$('input').each(function(index) {
+  alert(index);
+});

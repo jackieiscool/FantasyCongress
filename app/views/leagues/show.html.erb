@@ -1,7 +1,7 @@
 <h1><%= @league.name %></h1>
 
 <h4>Teams</h4>
-<ul>
+<ul class='teams_list'>
 <% @teams.each do |team| %>
   <li><%= team.name + ' : ' + team.user.email %></li>
 <% end %>

@@ -8,13 +8,9 @@ class PositionsController < ApplicationController
 
   def create
     @position = Position.new
-    @position.representative_id = Representative.find_by_lastname(params[:position][:lastname]).id
+    @position.representative = Representative.find_by_lastname(params[:position][:lastname])
     @position.team_id = params[:team_id]
-    if @position.save
-      redirect_to root_path
-    else
-      render 'new'
-    end
+    @position.save
   end
 
 end
