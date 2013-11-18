@@ -1,4 +1,4 @@
-<%= form_for [@team, @position], remote: true do |f| %>
+<%= form_for [@team, @position], remote: true, :html => {:class => "add_rep"} do |f| %>
 <%= f.label :lastname %>
 <%= f.text_field :lastname, data: {autocomplete_source: rep_object_path }, :class => "rep_picker" %>
 <%= f.submit :add_member %>
