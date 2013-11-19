@@ -8,6 +8,7 @@ gem 'twitter-bootstrap-rails', '~> 2.1.1'
 gem 'congress'
 gem 'sunlight'
 gem 'annotate', ">=2.5.0"
+gem 'seed_dump'
 
 group :test, :development do
   gem "rspec-rails", "~> 2.0"
