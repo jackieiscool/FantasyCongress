@@ -4,6 +4,11 @@
 <ul class='teams_list'>
 <% @teams.each do |team| %>
   <li><%= team.name + ' : ' + team.user.email %></li>
+  <ul>
+    <% team.representatives.each do |rep| %>
+    <li><%= rep.name %></li>
+    <% end %>
+  </ul>
 <% end %>
 </ul>
 
