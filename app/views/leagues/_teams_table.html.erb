@@ -1,0 +1,12 @@
+<table class="table table-striped">
+  <tr>
+    <th><%= team.name %> : <%= team.user.email %></th>
+    <th>Points</th>
+  </tr>
+  <% team.representatives.each do |rep| %>
+  <tr>
+    <td><%= rep.name %></td>
+    <td><%= find_points(rep) %></td>
+  </tr>
+  <% end %>
+</table>

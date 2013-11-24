@@ -18,13 +18,13 @@
   <% team = Team.find_by_user_id(current_user.id) %><br/>
   <% if team.positions.count < 5 %>
       <%= link_to "add legislators", new_team_position_path(team) %>
-      <% team.representatives.all.each do |rep| %>
+      <% team.representatives.each do |rep| %>
         <tr><td><%= rep.firstname %> <%= rep.lastname %></td>
             <td> Rep Points: <%= find_points(rep) %></td>
         </tr>
       <% end%>
   <% else %>
-      <% team.representatives.all.each do |rep| %>
+      <% team.representatives.each do |rep| %>
         <tr><td><%= rep.firstname %> <%= rep.lastname %></td>
             <td><%= find_points(rep) %></td>
         </tr>

@@ -1,21 +1,17 @@
 <h1><%= @league.name %></h1>
 
 <h4>Teams</h4>
-<ul class='teams_list'>
-<% @teams.each do |team| %>
-  <li><%= team.name + ' : ' + team.user.email %></li>
-  <ul>
-    <% team.representatives.each do |rep| %>
-    <li><%= rep.name %></li>
-    <% end %>
-  </ul>
-<% end %>
-</ul>
+<div class="teams_list">
+  <% @teams.each do |team| %>
+    <%= render partial: "teams_table", :locals => { :team => team } %>
+  <% end %>
+</div>
 
 <button id="join_league">Join League</button>
 
-<div class='padded'>
-  <%= form_for [@league, @team], remote: true, :html => {:class => "new_team"} do |f| %>
+<div class='new_caucus'>
+  <h4>Create Your Caucus</h4>
+  <%= form_for [@league, @team], remote: true, html: {class: "new_team"} do |f| %>
     <%= f.label :name %>
     <%= f.text_field :name %>
     <%= f.submit %>
