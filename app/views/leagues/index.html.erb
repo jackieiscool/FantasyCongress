@@ -1,11 +1,17 @@
-<h1>Welcome to Fantasy Congress </h1>
+<div class="row">
+  <div class="column_6 padding">
+    <h3>Find a League</h3>
+  </div>
+</div>
 
-<h3>Find a League</h3>
+<div class="row">
+  <div class="column_12 padding">
+    <ul>
+    <% @leagues.each do |league| %>
+      <li class="padding"><%= link_to league.name , league_path(league.id) %></li>
+    <% end %>
+    </ul>
 
-<ul>
-<% @leagues.each do |league| %>
-  <li><%= link_to league.name , league_path(league.id) %></li>
-<% end %>
-</ul>
-
-<%= link_to 'Create New League', new_league_path %>
+    <%= link_to 'Create New League', new_league_path, :class => "button small" %>
+  </div>
+</div>

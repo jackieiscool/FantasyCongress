@@ -17,7 +17,7 @@ class LeaguesController < ApplicationController
   def create
     @league = League.new(params[:league])
     if @league.save
-      redirect_to root_path
+      redirect_to @league
     else
       flash[:errors] = @league.errors.full_messages
       render :new

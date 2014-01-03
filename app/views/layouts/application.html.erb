@@ -7,37 +7,23 @@
     <title><%= content_for?(:title) ? yield(:title) : "FantasyCongress" %></title>
     <%= csrf_meta_tags %>
     <%= stylesheet_link_tag "application" %>
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
-
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap-theme.min.css">
-
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
-
   </head>
   <body>
-
-    <div id="user_nav" class="navbar navbar-inverse navbar-static-top" role='navigation'>
-      <div class='navbar-header'>
-        <div class='navbar-brand'>Fantasy Congress</div>
-      </div>
-      <div class='navbar-collapse collapse'>
-        <ul class='nav navbar-nav'>
-          <% if user_signed_in? %>
-          <li> <%= link_to "Sign out", destroy_user_session_path, :method => :delete %></li>
+    <header class="bck color padding">
+      <div class="row">
+        <div class="column_6"><h2>Fantasy Congress</h2></div>
+        <nav class="coulmn_6 text right bold"><% if user_signed_in? %>
+          <%= link_to "Sign out", destroy_user_session_path, :method => :delete %>
           <% else %>
-          <li><%= link_to "Sign up", new_user_registration_path %></li>
-          <li><%= link_to "Sign in", new_user_session_path %></li>
-          <% end %>
-        </ul>
+            <%= link_to "Sign up", new_user_registration_path %>
+            <%= link_to "Sign in", new_user_session_path %>
+          <% end %></nav>
       </div>
-    </div>
+    </header>
 
-    <div class="container theme-showcase">
+    <section class="padding">
       <%= yield %>
-    </div>
+    </section>
 
     <!-- Javascripts
     ================================================== -->

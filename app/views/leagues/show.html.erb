@@ -1,19 +1,24 @@
-<h1><%= @league.name %></h1>
-
-<h4>Teams</h4>
-<div class="teams_list">
-  <% @teams.each do |team| %>
-    <%= render partial: "teams_table", :locals => { :team => team } %>
-  <% end %>
+<div class="row">
+  <div class="column_6 padding">
+    <h3><%= @league.name %></h3>
+  </div>
 </div>
 
-<button id="join_league">Join League</button>
+<div class="row">
+  <div class="column_12 padding" id="teams_list">
+    <% @teams.each do |team| %>
+      <%= render partial: "teams_table", :locals => { :team => team } %>
+    <% end %>
+  </div>
+</div>
 
-<div class='new_caucus'>
-  <h4>Create Your Caucus</h4>
-  <%= form_for [@league, @team], remote: true, html: {class: "new_team"} do |f| %>
-    <%= f.label :name %>
-    <%= f.text_field :name %>
-    <%= f.submit %>
-  <% end %>
+<div class="row">
+  <div class="column_12 padding" id="new_caucus">
+    <h4>Create Your Caucus</h4>
+    <%= form_for [@league, @team], remote: true, html: {class: "new_team"} do |f| %>
+      <%= f.label :name %>
+      <%= f.text_field :name %>
+      <%= f.submit :class => "button small" %>
+    <% end %>
+  </div>
 </div>

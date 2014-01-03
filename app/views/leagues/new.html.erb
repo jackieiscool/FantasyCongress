@@ -1,7 +1,13 @@
-<h2>Create a New League!</h2>
+<div class="padding">
+  <h4>Create a New League!</h4>
+</div>
 
-<%= form_for @league do |f| %>
-  <%= f.label :name %>
-  <%= f.text_field :name %>
-  <%= f.submit %>
-<% end %>
+<div class="row">
+  <div class="column_12 padding">
+    <%= form_for @league do |f| %>
+      <%= f.label :name %>
+      <%= f.text_field :name %>
+      <%= f.submit :class => "button small" %>
+    <% end %>
+  </div>
+</div>
