@@ -248,6 +248,9 @@ body > section.landing .form.subscribe .button,body > section.landing .form.subs
 a{text-decoration:none;outline:0}
 
 ul{list-style:none;padding: .6em;}
+.dropdown li { padding: .6em; display: inline;}
+.dropdown li ul { display: none;}
+ul li.active { display: inline;}
 ul li{padding: .6em;}
 ul.square li,ul.circle li{margin:0 0 .3em .6em}
 ul:not(.none) li{padding:0;background:none}

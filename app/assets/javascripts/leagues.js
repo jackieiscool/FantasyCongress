@@ -3,3 +3,8 @@ $('#join_league').click(function() {
   $('#new_caucus').css('display', 'block');
   $('#join_league').css('display', 'none');
 });
+
+$('.dropdown-item').hover(function() {
+  console.log("active");
+  $("ul li").addClass("active");
+});

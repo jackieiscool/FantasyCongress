@@ -1,17 +1,20 @@
 <div class="row">
-  <div class="column_6 padding">
-    <h3>Find a League</h3>
+  <div class="column_6">
+    <h3>Choose a League</h3>
   </div>
 </div>
 
 <div class="row">
-  <div class="column_12 padding">
+  <div class="column_12">
     <ul>
     <% @leagues.each do |league| %>
       <li class="padding"><%= link_to league.name , league_path(league.id) %></li>
     <% end %>
     </ul>
-
+  </div>
+</div>
+<div class="row">
+  <div class="column_12 padding">
     <%= link_to 'Create New League', new_league_path, :class => "button small" %>
   </div>
 </div>

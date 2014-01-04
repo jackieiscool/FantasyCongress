@@ -8,23 +8,35 @@
     <%= csrf_meta_tags %>
     <%= stylesheet_link_tag "application" %>
   </head>
-  <body>
-    <header class="bck color padding">
-      <div class="row">
-        <div class="column_6"><h2>Fantasy Congress</h2></div>
-        <nav class="coulmn_6 text right bold"><% if user_signed_in? %>
-          <%= link_to "Sign out", destroy_user_session_path, :method => :delete %>
-          <% else %>
-            <%= link_to "Sign up", new_user_registration_path %>
-            <%= link_to "Sign in", new_user_session_path %>
-          <% end %></nav>
-      </div>
-    </header>
-
-    <section class="padding">
+  <body data-tuktuk="boxes">
+    <section class="main">
+      <header class="bck color padding">
+        <div class="row">
+          <div class="column_6"><h2>Fantasy Congress</h2></div>
+          <nav class="column_6 text right">
+            <ul class="dropdown">
+              <li class="dropdown-item">
+                <% if user_signed_in? %>
+                    <%= link_to "Sign out", destroy_user_session_path, :method => :delete %>
+                <% else %>
+                      <%= link_to "Sign up", new_user_registration_path %>
+                      <%= link_to "Sign in", new_user_session_path %>
+                <% end %>
+              </li>
+              <li class="dropdown-item">Things</li>
+              <li class="dropdown-item">
+                <a href="#">
+                  Menu
+                </a>
+                <ul class="sub-menu">
+                  <li>More things</li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+      </header>
       <%= yield %>
     </section>
-
     <!-- Javascripts
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
