@@ -19,7 +19,7 @@ body .bck.alert{background-color:#e74c3c !important}
 body .bck.theme,body .bck.alert{color:#fff}
 body .bck.color,body .bck.dark{color:#D74B4B;}
 body .bck.color hr,body .bck.dark hr{background:#415b75;background:rgba(0,0,0,0.2)}
-body .bck.color a,body .bck.dark a{color:#fff;}
+body .bck.color a,body .bck.dark a{color:#D74B4B;}
 body .bck.color a.active,body .bck.dark a.active{color:#fff !important}
 body .text.shadow{-webkit-text-shadow:0 1px 1px rgba(0,0,0,0.5);-moz-text-shadow:0 1px 1px rgba(0,0,0,0.5);-ms-text-shadow:0 1px 1px rgba(0,0,0,0.5);-o-text-shadow:0 1px 1px rgba(0,0,0,0.5);text-shadow:0 1px 1px rgba(0,0,0,0.5)}
 body .color.white{color:#fff !important}
