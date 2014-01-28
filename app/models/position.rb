@@ -14,6 +14,8 @@ class Position < ActiveRecord::Base
   belongs_to :team
   belongs_to :representative
 
+  validates :representative_id, uniqueness: {scope: :team_id}
+
 
   def lastname
 

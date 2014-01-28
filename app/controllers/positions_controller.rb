@@ -1,7 +1,6 @@
 class PositionsController < ApplicationController
 
   def new
-    # audit "new positions controller triggered"
     @position = Position.new
     @team = Team.find(params[:team_id])
   end
@@ -10,7 +9,11 @@ class PositionsController < ApplicationController
     @position = Position.new
     @position.representative = Representative.find_by_lastname(params[:position][:lastname])
     @position.team_id = params[:team_id]
-    @position.save
+    if @position.save
+      render :create
+    else
+      render :no_create
+    end
   end
 
 end

@@ -17,4 +17,6 @@ class Team < ActiveRecord::Base
   has_many :positions
   has_many :representatives, :through => :positions
 
+  validates :name, uniqueness: true
+
 end
